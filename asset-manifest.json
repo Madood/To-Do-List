@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/To-Do-List/static/css/main.4c85d4b3.css",
+    "main.js": "/To-Do-List/static/js/main.a2a14a08.js",
+    "static/media/brushed-alum.png": "/To-Do-List/static/media/brushed-alum.acc9a88b9257dc3ce2da.png",
+    "index.html": "/To-Do-List/index.html",
+    "main.4c85d4b3.css.map": "/To-Do-List/static/css/main.4c85d4b3.css.map",
+    "main.a2a14a08.js.map": "/To-Do-List/static/js/main.a2a14a08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c85d4b3.css",
+    "static/js/main.a2a14a08.js"
+  ]
+}
