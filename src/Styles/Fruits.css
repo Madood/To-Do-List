@@ -1,16 +1,5 @@
-     
 body {
-        background-image: url('./cubes.png');
-}
-.Box {
-        margin: 10% 0% 0% 60%;
-}
-
-h1 { 
-        font-size: large !important;
-        padding: 20px;
-        padding-left: 20px !important;
-        color: Black;
+        background-image: url('./cubes.png');     
 }
 
 input {
@@ -18,7 +7,7 @@ input {
         border-bottom: solid Black;
         background: transparent;
         padding: 10px;
-        width: 70%;
+        width: 80%;
         font-size: 25px;
 }
 
@@ -36,25 +25,20 @@ button {
 
 button:hover {
         background-color: black;
-       
         color: white;
 }
 .Header{
         display:flex;
         background-color: silver;
         width: 100%;
+        font-size: 50px;
 
 }
-.time{
-        position: right;
-        font-size: 20px;
-        
-}
+
 .Tareekh{
         position: left;
         padding-left: 10px;
-        font-size: 20px;
-
+      
 }
 
 .Footer {
@@ -66,45 +50,76 @@ button:hover {
         width: 100%;
         color: white;
 }
-
-/* *-------------------------------------------------------------Tab-------------------------------------------------*/
-@media screen and (min-width: 720px) {
- 
-h1 {
+@media screen and (max-width: 2000px) {
+        body{
+                background-color: aliceblue;
+        }
+        .Box {
+         margin: 2% 0% 0% 5%;
+}
+h1 { 
         font-size: 30px;
+        padding-left: 20px ;
+        color: Black;
+}
+.time{
+        position: right;
+        padding-left: 60%;      
+}
+.Footer h1{
+        font-size: 20px !important;
+}
+}
+/* *-------------------------------------------------------------Tab-------------------------------------------------*/
+@media screen and (max-width: 720px) {
+body{
+   background-color: aliceblue;
+ }
+h1 {
+        font-size: 15px;
         padding: 1px;
         color: Black;
 }
- .Box {
-        margin: 0% 0% 0% 0%;
+.Box {
+         margin: 10% 0% 0% 5px;
 }
 
 .time{
-        padding-left: 65% ;
-        font-size: 20px;
-        
+        padding-left: 25% ;       
+}
+.Tareekh{
+        padding-left: 10px;
+      
 }
 input {
-        width:60%;
-        padding-left: 10%;
-
+        width:45%;      
 }
-
+button {
+        padding: 4px;
+        margin-left: 5px;
+        border-radius: 4px;
+        background-color: white;
+        border: 2px solid black;
 }
+.Footer h1{
+        font-size: 12px !important;
+}
+} 
 
 /**-------------------------------------------------------phone---------------------------------------------------**/
- @media screen and (min-width: 480px) {
+ @media screen and (max-width: 280px) {
   
   .Box {
-        margin: 5% 0% 0% 5%;
+        margin: 5px 0 0 2px;
+   
 }
 h1{
-        font-size: 20px !important;
+        font-size: 10px !important;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .time{
         position: right;
-        padding-left: 35% !important;
+        padding-left: 12% !important;
         font-size: 20px;
         
 }
@@ -118,4 +133,17 @@ h1{
         background-color: silver;
         color: white;
 }
+input {
+        width:40%;
+        padding-left: 10%;
+
+}
+button {
+        padding: 7px;
+        margin-left: 7px;
+        border-radius: 4px;
+        background-color: white;
+        border: 2px solid black;
+}
 } 
+/*--------------------------------------------------------------------------------------*/

@@ -39,8 +39,9 @@ function App() {
                         </div>
                         <div className='Box'>
 
-                                <h1>Daily To-do-List</h1>
+
                                 <div className='form'>
+                                        <h1>Daily To-do-List</h1>
                                         <input onChange={handleChange} type="text" required />
                                         <button onClick={addItem}><span>Add</span></button>
                                         <button onClick={delteItem}><span>X</span></button>
