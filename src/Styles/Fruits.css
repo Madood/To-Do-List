@@ -1,15 +1,15 @@
-@media screen and (min-width: 1024px)  {                   
+     
 body {
-        background-color: aliceblue;
-        background-image: url('./brushed-alum.png');
+        background-image: url('./cubes.png');
 }
 .Box {
         margin: 10% 0% 0% 60%;
 }
 
-h1 {
-        font-size: 50px;
-        padding: 50px;
+h1 { 
+        font-size: large !important;
+        padding: 20px;
+        padding-left: 20px !important;
         color: Black;
 }
 
@@ -18,7 +18,7 @@ input {
         border-bottom: solid Black;
         background: transparent;
         padding: 10px;
-        width: 50%;
+        width: 70%;
         font-size: 25px;
 }
 
@@ -36,107 +36,86 @@ button {
 
 button:hover {
         background-color: black;
-        /* Green */
+       
         color: white;
 }
 .Header{
         display:flex;
         background-color: silver;
+        width: 100%;
 
 }
 .time{
         position: right;
-        padding-left: 65% !important;
+        font-size: 20px;
         
 }
+.Tareekh{
+        position: left;
+        padding-left: 10px;
+        font-size: 20px;
+
+}
 
 .Footer {
         text-align: center;
         position: fixed;
         left: 0;
         bottom: 0;
-        width: 100%;
         background-color: silver;
+        width: 100%;
         color: white;
 }
-}
-/**-------------------------------------------------------------Tab-------------------------------------------------**/
-@media screen and (min-width:768px) {
-  body {
-        background-color: aliceblue;
-         background-image: url('./brushed-alum.png');
-  }
-  .Box {
-        margin: 30% 0% 0% 30%;
-}
 
+/* *-------------------------------------------------------------Tab-------------------------------------------------*/
+@media screen and (min-width: 720px) {
+ 
 h1 {
-        font-size: 20px;
+        font-size: 30px;
         padding: 1px;
         color: Black;
 }
- }
+ .Box {
+        margin: 0% 0% 0% 0%;
+}
+
+.time{
+        padding-left: 65% ;
+        font-size: 20px;
+        
+}
+input {
+        width:60%;
+        padding-left: 10%;
+
+}
+
+}
 
 /**-------------------------------------------------------phone---------------------------------------------------**/
-@media screen and (min-width:480px) {
-  body {
-         background-color: aliceblue;
-        background-image: url('./cubes.png');
-  }
+ @media screen and (min-width: 480px) {
+  
   .Box {
-        margin: 10% 0% 0% 10%;
+        margin: 5% 0% 0% 5%;
 }
-
-h1 {
-        font-size: 20px;
-        padding: 1px;
-        color: Black;
-}
-
-input {
-        border: 0px none;
-        border-bottom: solid Black;
-        background: transparent;
-        padding: 10px;
-        width: 50%;
-        font-size: 25px;
-}
-
-li {
-        font-size: 25px;
-}
-
-button {
-        padding: 10px;
-        margin-left: 10px;
-        border-radius: 4px;
-        background-color: white;
-        border: 2px solid black;
-}
-
-button:hover {
-        background-color: black;
-        /* Green */
-        color: white;
-}
-.Header{
-        display:flex;
-        background-color: silver;
-
+h1{
+        font-size: 20px !important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .time{
         position: right;
-        padding-left: 45%;
+        padding-left: 35% !important;
+        font-size: 20px;
+        
 }
-
 .Footer {
         text-align: center;
         position: fixed;
+        font-size: 5px;
         left: 0;
         bottom: 0;
         width: 100%;
         background-color: silver;
         color: white;
 }
-}
-
+} 

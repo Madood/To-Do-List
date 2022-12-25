@@ -11,8 +11,8 @@ function Tareekh() {
 
         console.log(newDate);
         return (
-                <div>
-                        <h1 style={{ paddingLeft: 90 }}>{date} , {name} , {year}</h1>
+                <div className='Tareekh'>
+                        <h1> {date} , {name} , {year}</h1>
 
                 </div>
         );

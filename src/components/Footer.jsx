@@ -4,9 +4,9 @@ import '../Styles/Fruits.css';
 function Footer() {
   return (
           <div className='Footer'>
-                  <h2>
-                          ©️ Ruchul 2022
-                  </h2>
+                  <h1>
+                          ©️ Ruchul 2022 | allrights reserved |Terms and Conditions
+                  </h1>
     </div>
   )
 }

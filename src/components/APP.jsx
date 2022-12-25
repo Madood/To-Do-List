@@ -39,7 +39,7 @@ function App() {
                         </div>
                         <div className='Box'>
 
-                                <h1 style={{ fontSize: 50 }}>Daily To-do-List</h1>
+                                <h1>Daily To-do-List</h1>
                                 <div className='form'>
                                         <input onChange={handleChange} type="text" required />
                                         <button onClick={addItem}><span>Add</span></button>

@@ -16,7 +16,7 @@ function Clock() {
 
         return (
                 <div className='time'>
-                        <h1>{time}</h1>
+                        <h1> {time} </h1>
                 </div>
         )
 }
